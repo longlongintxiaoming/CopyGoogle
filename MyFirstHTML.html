@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        th{
+            position: relative;
+            left: 30%;
+        }
+        table{
+            position: relative;
+            left: 40%;
+        }
+        td{
+            margin: 5px;
+            height: 40px;
+        }
+        input{
+            margin: 5px;
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+<form>
+        <table>
+            <tr>
+                <th>用户注册</th>
+            </tr>
+            <tr>
+                <td> <label class="text">用户名　</label></td>
+                <td> <input class="one"  type="text" name="用户名" placeholder="4-10英文字母或数字"/></td>
+            </tr>
+            <tr>
+                <td><label class="text">密　码　</label></td>
+                <td><input class="one" type="password" name="密码" placeholder="8-12英文字母或数字"></td>
+            </tr>
+            <tr>
+                <td><label class="text">确认密码</label></td>
+                <td><input class="one" type="password" name="确认密码"  placeholder="确认密码"></td>
+            </tr>
+            <tr>
+                <td> <label class="text">电子邮件</label></td>
+                <td><input class="one" type="text"  name="电子邮件" placeholder="电子邮件"></td>
+            </tr>
+            <tr>
+                <td><label class="text">性　别　</label></td>
+                <td><input class="one" type="radio" name="sex" id="man">
+                    <label class="one"  for="man">男</label>
+                    <input class="one" type="radio" name="sex" id="woman">
+                    <label class="one"  for="woman">女</label>
+                </td>
+            </tr>
+            <tr>
+                <td> <label class="text">兴趣爱好</label></td>
+                <td> <input class="one" type="checkbox" name="checkbox1" id="xiaqi">
+                    <label class="one" for="xiaqi">下棋</label>
+                    <input class="one" type="checkbox" name="checkbox2" id="yy">
+                    <label class="one" for="yy">游泳</label>
+                    <input class="one" type="checkbox" name="checkbox3" id="ly">
+                    <label class="one" for="ly">旅游</label>
+                    <input class="one" type="checkbox" name="checkbox4" id="dq">
+                    <label class="one" for="dq">打球</label>
+                </td>
+            </tr>
+            <tr>
+                <td> <label class="text">所在部门</label></td>
+                <td> <select class="select" >
+                    <option selected="selected">销售部</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td> <label class="text">人生格言</label></td>
+                <td> <textarea class="one" rows="3" cols="50">这家伙很懒，什么都未留下</textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input class="submit" type="submit" value="提交">
+                    <input class="submit" type="reset" value="重置">
+                </td>
+            </tr>
+        </table>
+</form>
+</body>
+</html>
